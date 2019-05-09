@@ -1,0 +1,22 @@
+{
+  "name": "liminal",
+  "version": "1.0.0",
+  "description": "An expression of my wish to travel across worlds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ceciil/Liminal.git"
+  },
+  "author": "Angela Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ceciil/Liminal/issues"
+  },
+  "homepage": "https://github.com/Ceciil/Liminal#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
