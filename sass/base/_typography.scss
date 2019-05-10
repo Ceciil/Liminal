@@ -10,15 +10,18 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
+  background-color: rgba($color-black, .5);
+  padding: 2.5rem;
+  border: 2px solid $color-primary-light;
+
 
   &--main {
-    color: $color-primary;
+    color: $color-white;
     display: block;
     font-size: 6rem;
     font-weight: 700;
     letter-spacing: 3.5rem;
     animation: moveInLeft 1s ease-out;
-    -webkit-text-stroke: 1px $color-black;
   }
 
   &--sub {
@@ -28,7 +31,6 @@ body {
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out;
-    text-shadow: 1px 2px 2px $color-black;
   }
 }
 
